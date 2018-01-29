@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="client.css">
+</head>
+<body>
+    <h1>WebSocket客户端</h1>
+
+    <input id="in-url" type="text" name="fname" value="ws://127.0.0.1:444/"/>
+    <button type="button" onclick="connect()">连接</button>
+    <br>
+    <textarea class="text-display" id = "diplayText" disabled="disabled"></textarea>
+    
+
+    <input id="in-data1" type="text" name="fname" />
+    <button type="button" onclick="send('in-data1')">发送</button>
+
+    <input id="in-data2" type="text" name="fname" />
+    <button type="button" onclick="send('in-data2')">发送</button>
+
+    <input id="in-data3" type="text" name="fname" />
+    <button type="button" onclick="send('in-data3')">发送</button>
+
+    <input id="in-data4" type="text" name="fname" />
+    <button type="button" onclick="send('in-data4')">发送</button>
+
+    <input id="in-data5" type="text" name="fname" />
+    <button type="button" onclick="send('in-data5')">发送</button>
+
+    <input id="in-data6" type="text" name="fname" />
+    <button type="button" onclick="send('in-data6')">发送</button>
+
+
+    <script src="client.js"></script>
+</body>
+
+</html>
